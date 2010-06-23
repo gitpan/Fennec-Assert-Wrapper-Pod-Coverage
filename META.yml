@@ -1,0 +1,22 @@
+---
+abstract: 'Fennec wrapper for L<Test::Pod::Coverage>'
+author:
+  - 'notbenh <notbenh@cpan.org>'
+build_requires:
+  Fennec: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Fennec-Assert-Wrapper-Pod-Coverage
+provides:
+  Fennec::Assert::Wrapper::Pod::Coverage:
+    file: lib/Fennec/Assert/Wrapper/Pod/Coverage.pm
+    version: 0.01
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
